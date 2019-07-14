@@ -5,7 +5,7 @@ inverterTexto entrada = (unwords .  reverse . words) entrada
 
 main :: IO ()
 main = do
-putStrLn "Digite um texto para inverter:"
+putStrLn "Digite uma frase para inverter:"
 texto <- getLine
 putStrLn "Frase Invertida:"
 putStrLn(inverterTexto texto)
